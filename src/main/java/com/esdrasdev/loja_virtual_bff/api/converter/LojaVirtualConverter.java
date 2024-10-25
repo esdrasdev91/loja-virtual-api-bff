@@ -1,5 +1,6 @@
 package com.esdrasdev.loja_virtual_bff.api.converter;
 
+import com.esdrasdev.loja_virtual_bff.api.request.CartaoRequestDTO;
 import org.springframework.stereotype.Component;
 
 @Component
