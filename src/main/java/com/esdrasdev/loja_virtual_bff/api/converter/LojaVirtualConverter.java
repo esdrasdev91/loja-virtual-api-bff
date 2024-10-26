@@ -1,7 +1,12 @@
 package com.esdrasdev.loja_virtual_bff.api.converter;
 
 import com.esdrasdev.loja_virtual_bff.api.request.CartaoRequestDTO;
+import com.esdrasdev.loja_virtual_bff.api.request.CompraRequestDTO;
+import com.esdrasdev.loja_virtual_bff.api.request.EnderecoRequestDTO;
+import com.esdrasdev.loja_virtual_bff.api.response.EnderecoResponseDTO;
 import org.springframework.stereotype.Component;
+
+import java.math.BigDecimal;
 
 @Component
 public class LojaVirtualConverter {
