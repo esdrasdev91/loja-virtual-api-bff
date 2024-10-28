@@ -1,5 +1,7 @@
 package com.esdrasdev.loja_virtual_bff.api.response;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
 import java.math.BigDecimal;
