@@ -6,7 +6,7 @@ import com.esdrasdev.loja_virtual_bff.api.response.ProductsDTO;
 import com.esdrasdev.loja_virtual_bff.api.response.UsuarioResponseDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-s
+
 @Service
 @RequiredArgsConstructor
 public class LojaVirtualService {
