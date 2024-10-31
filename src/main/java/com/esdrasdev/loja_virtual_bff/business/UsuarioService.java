@@ -2,6 +2,7 @@ package com.esdrasdev.loja_virtual_bff.business;
 
 import com.esdrasdev.loja_virtual_bff.api.request.UsuarioRequestDTO;
 import com.esdrasdev.loja_virtual_bff.api.response.UsuarioResponseDTO;
+import com.esdrasdev.loja_virtual_bff.infrastructure.client.usuarioclient.UsuarioClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
