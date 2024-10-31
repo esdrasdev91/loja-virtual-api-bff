@@ -6,11 +6,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @FeignClient(value = "pagamento-api", url = "localhost:8383")
-public class PagamentoClient {
+public interface PagamentoClient {
 
     @PostMapping("/pagamento")
-    Boolean verificaPagamento(@RequestBody CartaoRequestDTO cartaoRequestDTO) {
-        return null;
-    }
+    Boolean verificaPagamento(@RequestBody CartaoRequestDTO cartaoRequestDTO);
 
 }

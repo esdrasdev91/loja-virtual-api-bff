@@ -1,6 +1,7 @@
 package com.esdrasdev.loja_virtual_bff.business;
 
 import com.esdrasdev.loja_virtual_bff.api.request.CartaoRequestDTO;
+import com.esdrasdev.loja_virtual_bff.infrastructure.client.pagamentoclient.PagamentoClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

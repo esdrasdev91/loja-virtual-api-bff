@@ -4,7 +4,7 @@ import com.esdrasdev.loja_virtual_bff.api.request.UsuarioRequestDTO;
 import com.esdrasdev.loja_virtual_bff.api.response.UsuarioResponseDTO;
 import org.springframework.web.bind.annotation.*;
 
-public class UsuarioClient {
+public interface UsuarioClient {
 
     @PostMapping("/user")
     UsuarioResponseDTO gravaDadosUsuario(@RequestBody UsuarioRequestDTO usuarioRequestDTO);

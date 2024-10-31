@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.List;
 
 @FeignClient(value = "produtos-api", url = "localhost:8181")
-public class ProdutosClient {
+public interface ProdutosClient {
 
     @GetMapping("/produtos/")
     List<ProductsDTO> buscaTodosProdutos();
